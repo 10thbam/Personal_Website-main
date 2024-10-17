@@ -1,0 +1,302 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Ameron. Problem solving has been my passion, ever since I could remember. This for me took its form in writing code since joining university. My journey in the academic sphere has honed my skills in tackling complex challenges, and I look forward to expanding my horizons into business ventures and further leadership roles in the future :). Lately, I have found myself invested in mobile application development, with a focus on leveraging the Flutter framework. I am always open to change and trying new things.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Selam",
+        "startDate": "2023",
+        "description":   "Selam.et is a well-known digital platform in Ethiopia for content creators to connect with their audience and gain support for their creative endeavors. Its a community-driven platform providing creators with the opportunity to showcase their work and receive financial backing from their supporters.",
+        "images": [
+          "images/Selam/login_page.png",
+          "images/Selam/creator_home_page.png",
+          "images/Selam/creator_page.png",
+          "images/Selam/search_page.png",
+          "images/Selam/shop_page.png",
+          "images/Selam/wallet_page.png"
+        ],
+        "url": "https://play.google.com/store/apps/details?id=com.btnet.selamet&hl=am",
+        "technologies": [
+          {
+            "name": "Flutter",
+            "class": "devicon-flutter-plain",
+            "level": "75"
+          }
+        ],
+        "caseStudy": [
+
+           "I built selam mobile application from scratch (given a Figma design) and orchestrated all the integration with essential state management. Designed to serve a substantial user base, ranging from approximately 5,000 to 10,000 individuals, the complexity and scale of the app presented significant development challenge. \n\n As the sole mobile developer, I was responsible for ensuring the robustness and usability of the application across its extensive feature set. I developed Selam using only the flutter framework. Worked with a backend developer for nearly a 3 month period.",
+          "The application offers robust authentication together with options for Google and Facebook sign-in. The application also provides role-based views, to both content creators and users, with distinct functionalities for each. Creators can add stories, posts (including pictures and videos), and assign them a price tag. Users can explore a vast pool of content creators through the search feature, which includes filtering options for the most active, free, and more.\n\nCreators can set subscription prices, view their subscribers, and manage subscriptions effectively. The app includes bookmark features, subscription to preferred creators. Users can add funds to their local account or wallet from Telebirr or the Commercial Bank of Ethiopia. The app also integrates shop where users can add items and make purchases using funds from their local account.\n\nIt allows users to edit their personal information, including avatar and cover images. The dashboard feature provides statistical data for content creators serving as a report mechanism. Subscribed users can easily message and interact with the creators they follow.\n\nAdditional features include access to notifications, a help center for user support, send tip to creators and the ability to customize privacy settings according to individual preferences and more.",
+          "Access to the application can be found on the Google Play Store accessible from the above link icon."
+        ]
+      },
+      {
+        "title": "Mint",
+        "startDate": "2023",
+        "description": "A cafe system developed for the Ministry of Innovation and Technology of Ethiopia (Mint)",
+        "images": [
+          "images/Mint/buy_request.png",
+          "images/Mint/home_mobile.png",
+          "images/Mint/constraint.png",
+          "images/Mint/dashboard.png",
+          "images/Mint/menu.png",
+          "images/Mint/withdrawal.png",
+          "images/Mint/mint_flutter_desktop.png",
+          "images/Mint/order.png",
+          "images/Mint/menu_mobile.png",
+          "images/Mint/checkout_mobile.png",
+          "images/Mint/order_history_mobile.png",
+          "images/Mint/transaction_history_mobile.png"
+        ],
+        "url": "https://drive.google.com/drive/folders/1TlUqYGSLew8KCz2rIaKVUkfQ6gmAAqLb?usp=sharing",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "name": "Flutter",
+            "class": "devicon-flutter-plain",
+            "level": "75"
+          },
+          {
+            "name": "PHP",
+            "class": "devicon-php-plain",
+            "level": "65"
+          }
+        ],
+        "caseStudy": [
+          "Together with 4 students, we have developed this huge system. It includes a mobile app for employees and a desktop app for those who do not have access to smartphones. This allows employees to conveniently order food using the desktop computers provided by the ministry. ",
+          "On the other hand he desktop application is specifically designed for super users- the cashier, the admin, cafe committee, storekeeper, and cafe manager. Each user has their own differing view of the system and sets of access privileges, enabling them to manage various activities such as payment transactions (deposit, withdrawal, refund), generate detailed reports and statistics on the dashboard, oversee inventory and order management, and handle employee management, among other functionalities.",
+          "As a non-functional requirement, the primary language used in the system is Amharic. This decision was made based on the fact that the admin, cafe committee, cafe manager, and storekeeper, who form a smaller user group, are most (only) comfortable with Amharic. Therefore, their version of the system is exclusively in Amharic. However, considering the larger number of employees with diverse language preferences, the employee version of the system is designed to accommodate five different languages, ensuring inclusivity and ease of use.",
+          "The mobile and desktop app for the employees was developed using flutter. The backend framework was Laravel and the desktop application for the super users was made using React/ Electron. The functionality of this system is quite vast, I recommend referring to the training manuals prepared by the team, which can be accessed in the Google Drive link above for getting an understanding of the extensive functionalities offered by the system."
+        ]
+      },
+
+
+
+      {
+        "title": "GOJO",
+        "startDate": "2024",
+        "description": "An online platform that connects homeowners with property seekers for unique accommodations in Ethiopia. It provides an easy-to-use system for listing, managing, and booking spaces for rent or purchase.",
+        "images": [
+          "images/Gojo/pending_properties.png",
+          "images/Gojo/property_detail.png",
+          "images/Gojo/property_location.png",
+          "images/Gojo/home.png",
+          "images/Gojo/search.png",
+          "images/Gojo/billing.png",
+          "images/Gojo/admin_chat.png",
+          "images/Gojo/add_property.png",
+          "images/Gojo/setting.png",
+          "images/Gojo/gojo_account.png",
+          "images/Gojo/notification.png",
+          "images/Gojo/insomnia_workspace.png"
+        ],
+        "url": "https://drive.google.com/drive/folders/12VZHlGMvRYRXqqH_7EhDSb7om7OudQAl",
+        "technologies": [
+          {
+            "class": "devicon-dotnetcore-plain colored",
+            "name": ".NET"
+          },
+          {
+            "name": "Flutter",
+            "class": "devicon-flutter-plain colored"
+          },
+          {
+            "name": "Angular",
+            "class": "devicon-angularjs-plain colored"
+          },
+          {
+            "name": "Next.js",
+            "class": "devicon-nextjs-plain colored"
+          }
+        ],
+        "caseStudy": [
+          "GOJO is an online platform developed by a team of 4 students (soon to be launched in the Ethiopian Market). It includes a mobile app and a web application that allows homeowners to list their properties for rent or purchase, and property seekers to search and book accommodations.",
+          "The platform offers various features for homeowners, such as listing their properties as shared rooms, private rooms, or entire places. They can specify amenities, capacity limits, and other attributes to match guests' needs. Homeowners can also access detailed profiles of prospective renters or buyers, including reviews from past hosts, to build trust and ensure a good cultural fit.",
+          "GOJO aims to cater to the diverse language preferences in Ethiopia by offering multi-language support. The platform will initially support major Ethiopian languages, such as Amharic, as well as English, with the capability to easily add more languages in the future.",
+          "The mobile app is developed using Flutter, while the web application utilizes Angular and the admin side is setup using Next.js. The backend is built with .NET, following a microservices architecture to ensure scalability and high performance under load. (Proved to be a real challenge in the development process)"
+        ]
+      },
+
+
+
+
+
+      {
+        "title": "Ethrons",
+        "startDate": "2023",
+        "description": " Ethrons is an electronic publishing company that collaborates closely with authors, publishers, and bookstores to change the reading and listening experience for Ethiopians in the digital age.",
+        "images": [
+          "images/Ethrons/login_page.png",
+          "images/Ethrons/home_audio_page.png",
+          "images/Ethrons/home_ebook_page.png",
+          "images/Ethrons/reader_page.png",
+          "images/Ethrons/home_podcast_page.png",
+          "images/Ethrons/search_page.png",
+          "images/Ethrons/authors_page.png",
+          "images/Ethrons/about_author_page.png"
+        ],
+        "url": "https://ethrons.com/",
+        "technologies": [
+          {
+            "name": "Flutter",
+            "class": "devicon-flutter-plain",
+            "level": "75"
+          }
+        ],
+        "caseStudy": [
+          "As a mobile developer at Aquila ICT Solution, I was in charge of developing Ethrons application. Although it entailed fewer functional requirements as compared to Selam, soley creating this application from scratch posed its own set of challenges. The application is almost done and very soon to be deployed for the mass user. I developed Ethrons using the flutter framework.",
+          "Application features include - Complete Authentication,  Ability to directly get works from authors and publishers. Ability to view details of the podcasts, publications , audiobooks, and ebooks listed in different catagory. Ability to add books and audios to library where they have access to music players and Book readers. Profile and setting management. It also has an admin side developed by another developer using react.",
+          "To provide you with a glimpse of what Ethrons looks like, I have included some images here. Additionally, the Ethrons website is currently undergoing development and can be accessed from the above link icon"
+        ]
+      },
+      {
+        "title": "Nibret Kifel App",
+        "startDate": "2022",
+        "description": " I developed a property management application for my local church to efficiently track and manage the church's assets. This tool addresses the challenges of identifying properties requiring repair, those that have been lost, and those currently operational. ",
+        "images": [
+          "images/Nibret_Kifel/home_Amharic.png",
+          "images/Nibret_Kifel/home_Translated.png",
+          "images/Nibret_Kifel/register_Amharic.png",
+          "images/Nibret_Kifel/register_Translated.png",
+          "images/Nibret_Kifel/request_Property_Amharic.png",
+          "images/Nibret_Kifel/request_Property_Translated.png",
+          "images/Nibret_Kifel/search_Amharic.png",
+          "images/Nibret_Kifel/search_Translated.png",
+          "images/Nibret_Kifel/unreturned_Property_Amharic.png",
+          "images/Nibret_Kifel/unreturned_Property_Translated.png"
+        ],
+        "url": "https://github.com/alexanderKalema/Nibret-Kifel-App",
+        "technologies": [
+          {
+            "name": "React Native",
+            "class": "devicon-react-original",
+            "level": "75"
+          }
+        ],
+        "caseStudy": [
+          "This app simplified the process of submitting detailed requests for property needs, approving these requests, and monitoring the status of properties upon return. The application also incorporates features to review submitted, approved, and completed requests with their respective details, thereby simplifying the tracking of property history.",
+        "Previously, the church relied on a paper-based system, which proved difficult to maintain and resulted in property losses and a lack of transparency and accountability. This digital solution offered a more reliable means of record-keeping, fostering greater accountability and reducing the likelihood of misplaced or damaged church assets. I developed “Nibret Kifel (ንብረት ከፍል) App” using react native.",
+        "The language used for the application is Amharic. The image translations was performed using Google Lens, and while I can verify that some translations are inaccurate, they are actually coherent in the Amharic language that the application is currently being used, particularly accurate in my church's context. "
+        ]
+      },
+      {
+        "title": "Notes App",
+        "startDate": "2022",
+        "description": "The Notes App is a Flutter application designed to facilitate note-taking and management",
+        "images": [
+          "images/Notes/splash_page.png",
+          "images/Notes/login_page.png",
+          "images/Notes/home_page.png",
+          "images/Notes/editor_page.png",
+          "images/Notes/setting_page.png"
+        ],
+        "url": "https://github.com/alexanderKalema/Notes-App",
+        "technologies": [
+          {
+            "name": "Flutter",
+            "class": "devicon-flutter-plain",
+            "level": "75"
+          }
+        ],
+        "caseStudy": [
+           "This Notes App (my first flutter application) offers a set of features like complete authentication including option for Google Sign-In.  It also has secure cloud-based database, powered by Firebase. This ensures that users' notes are safeguarded even if the app is deleted from their device. The app also provides functionalities to search for specific notes, customize/edit them, remove unwanted entries, and effortlessly share notes with others. Users also have the freedom to customize the app's theme and language settings according to their preferences, ensuring a personalized and enjoyable experience.",
+          "This project served as a significant learning experience for me, where I prioritized gaining knowledge and skills in mobile development (Huge thanks to YouTube instructor Vandad). While acknowledging its flaws in terms of code cleanliness, I plan to restructure the app, address existing bugs, and prepare it for deployment in the near future."
+        ]
+      },
+
+      {
+        "title": "Gym Management",
+        "startDate": "2022",
+        "description": "A Collaborative team work class project for Object Oriented Programming course using Java.",
+        "images": [
+          "images/Gym_Application/admin_Login.png",
+          "images/Gym_Application/dashboard.png",
+          "images/Gym_Application/register_Branch.png",
+          "images/Gym_Application/register_Client.png",
+          "images/Gym_Application/update_Client.png",
+          "images/Gym_Application/view_Client.png",
+          "images/Gym_Application/view_Department.png",
+          "images/Gym_Application/view_Employee.png",
+          "images/Gym_Application/view_Program.png"
+        ],
+        "url": "https://github.com/alexanderKalema/Gym_managment",
+        "technologies": [
+
+          {
+            "name": "Java",
+            "class": "devicon-java-plain",
+            "level": "85"
+          }
+        ],
+        "caseStudy": [
+        "Key entities modeled included Users (Admin, Employee, Client), Departments, Programs, Branch. Relations between these entities and their attributes/behaviors were defined. I primarily worked on modules related to Client management - implementing classes for client, branches, program and methods to enroll clients , view/edit client data, associate clients to programs etc. The final application met core requirements for managing a gym's operations and client programs. It served as a good starting experience in my academics."
+          ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Dinobit Company",
+        "title": "Front-End Developer",
+        "years": "10.2021 - 12.2021",
+        "mainTech": [          "Flutter 8/9/10"
+        ],
+        "technologies": [
+          "REST API",
+          "Dart",
+          "Firebase"
+        ]
+      },
+      {
+        "company": "Internsavvy",
+        "title": "Intern",
+        "years": "10.2021 - 12.2021",
+        "mainTech": [
+          "Flutter 8/9/10"
+        ],
+        "technologies": [
+          "Dart",
+          "Sqflite"
+        ]
+      },
+      {
+        "company": "Aquila ICT Solution",
+        "title": "Lead Mobile Developer",
+        "years": "2.2023 - 6.2023",
+        "mainTech": [
+          "Flutter 8/9/10"
+        ],
+        "technologies": [
+          "Dart",
+          "REST API",
+          "Sqflite"
+        ]
+      },
+      {
+        "company": "Ministry of Innovation and Technology of Ethiopia",
+        "title": "Lead Developer",
+        "years": "6.2023 - 12.2023",
+        "mainTech": [
+          "Flutter 8/9/10"
+        ],
+        "technologies": [
+          "Dart",
+          "REST API",
+          "My SQL",
+          "Laravel",
+          "React",
+          "Electron"
+
+        ]
+      }
+    ]
+  }
